@@ -1,0 +1,131 @@
+[
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 84,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" :
+		[
+			{
+				"condition" : "AtLeast",
+				"item_type" : "BAR",
+				"material" : "INORGANIC:PLATINUM",
+				"value" : 5
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "BAR",
+				"material" : "COAL",
+				"value" : 100
+			},
+			{
+				"condition" : "AtMost",
+				"item_subtype" : "ITEM_WEAPON_HAMMER_WAR",
+				"item_type" : "WEAPON",
+				"material" : "INORGANIC:PLATINUM",
+				"value" : 10
+			}
+		],
+		"item_subtype" : "ITEM_WEAPON_HAMMER_WAR",
+		"job" : "MakeWeapon",
+		"material" : "INORGANIC:PLATINUM"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 86,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" :
+		[
+			{
+				"condition" : "AtLeast",
+				"item_type" : "BAR",
+				"material" : "INORGANIC:PLATINUM",
+				"value" : 5
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "BAR",
+				"material" : "COAL",
+				"value" : 100
+			},
+			{
+				"condition" : "AtMost",
+				"item_subtype" : "ITEM_WEAPON_MACE",
+				"item_type" : "WEAPON",
+				"material" : "INORGANIC:PLATINUM",
+				"value" : 10
+			}
+		],
+		"item_subtype" : "ITEM_WEAPON_MACE",
+		"job" : "MakeWeapon",
+		"material" : "INORGANIC:PLATINUM"
+	},
+        {
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 546,
+		"is_active" : true,
+		"is_validated" : true,
+		"item_conditions" :
+		[
+			{
+				"condition" : "AtLeast",
+				"item_type" : "BAR",
+				"material" : "ASH",
+				"value" : 2
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" :
+				[
+					"empty"
+				],
+				"item_type" : "BUCKET",
+				"value" : 2
+			},
+			{
+				"condition" : "AtMost",
+				"item_type" : "LIQUID_MISC",
+				"material" : "LYE",
+				"value" : 5
+			}
+		],
+		"job" : "MakeLye"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 180,
+		"is_active" : false,
+		"is_validated" : false,
+		"item_conditions" :
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" :
+				[
+					"empty",
+					"bag"
+				],
+				"item_type" : "BOX",
+				"value" : 2
+			},
+			{
+				"condition" : "AtMost",
+				"flags" :
+				[
+					"sand_bearing"
+				],
+				"value" : 6
+			}
+		],
+		"job" : "CollectSand"
+	}
+]

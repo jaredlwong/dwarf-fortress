@@ -1,0 +1,13 @@
+#place
+s,s,s
+s, ,s
+s,c,s
+
+#build
+ ,
+ ,trackstopS
+
+#query message(remember to assign a minecart to the new route)
+nocontainers
+ ,quantumstopfromnorth
+ ,quantum
